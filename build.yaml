@@ -2,7 +2,7 @@ name: "AniList"
 guid: "1bd22884-44be-40f3-ad95-fc4a7834ba2c"
 imageUrl: "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-anilist.png"
 version: "6"
-targetAbi: "10.8.0.0"
+targetAbi: "10.7.7.0"
 framework: "net6.0"
 owner: "jellyfin"
 overview: "AniList metadata provider"
@@ -14,4 +14,7 @@ artifacts:
   - "Jellyfin.Plugin.AniList.dll"
 changelog: |2-
   ### Code or Repo Maintenance ###
-  - 10.8 support (#18) @crobibero
+  - Use meta ci (#25) @crobibero
+
+  ### CI & build changes ###
+  - Use meta ci (#25) @crobibero
